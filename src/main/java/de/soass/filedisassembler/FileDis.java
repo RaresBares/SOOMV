@@ -43,4 +43,13 @@ public class FileDis {
         }
     }
 
+    public void ConvertEdges(){
+        for (BufferedImage frame : frames) {
+            FileUtils.getEdges(frame);
+        }
+    }
+
+
+
+
 }
